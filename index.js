@@ -1,5 +1,5 @@
 function sum(nums) {
-    let arr = nums.split(',')
+    let arr = nums.split(/[,\n]/)
     return arr.map(num => {
         num = +num
         if (!num) {
