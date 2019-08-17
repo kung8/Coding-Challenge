@@ -1,6 +1,6 @@
 function sum(nums) {
     let exc = []
-    let arr = nums.split(/[,\n]/)
+    let arr = nums.split(/[,\n;/.?*&']/)
     // console.log(arr)
     let finalSum = arr.map(num => {
         num = +num
