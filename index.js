@@ -1,7 +1,7 @@
 function sum(nums) {
     let exc = []
-    let arr = nums.split(/[,\n;/.?*&']/)
-    console.log(arr)
+    let arr = nums.toLowerCase().split(/[abcdefghijklmnopqrstuvwzyz,\[!\n;/.\]?*&']/)
+    // console.log(arr)
     let finalSum = arr.map(num => {
         num = +num
         if (!num || num > 1000 ) {
