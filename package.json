@@ -1,0 +1,24 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kung8/Coding-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kung8/Coding-Challenge/issues"
+  },
+  "homepage": "https://github.com/kung8/Coding-Challenge#readme"
+}

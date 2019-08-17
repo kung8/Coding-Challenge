@@ -1,4 +1,4 @@
-function sum(nums) {
+export default function sum(nums) {
     let exc = []
     let arr = nums.toLowerCase().split(/[abcdefghijklmnopqrstuvwzyz,\[!\n;/.\]?*&']/)
     // console.log(arr)
