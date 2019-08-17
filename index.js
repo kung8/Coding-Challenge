@@ -1,7 +1,7 @@
 function sum(nums) {
     let exc = []
     let arr = nums.split(/[,\n;/.?*&']/)
-    // console.log(arr)
+    console.log(arr)
     let finalSum = arr.map(num => {
         num = +num
         if (!num || num > 1000 ) {
@@ -16,5 +16,4 @@ function sum(nums) {
     }, 0)
     // alert(exc)
     return finalSum
-
 }
